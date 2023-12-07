@@ -63,7 +63,6 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   for (let i=0; i < toDoList.length; i++) {
-    var previousTodo = toDoList[i].toDoDescription
     $("#"+toDoList[i].hour).children('.description').text(toDoList[i].toDoDescription)
   }
 

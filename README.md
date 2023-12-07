@@ -1,1 +1,9 @@
-# daily_schedule
+# Daily Schedule
+## Features
+* Displays Current date
+* Current hour block displayed in red
+* Previous hour blocks displayed in grey
+* Future hour blocks displayed in green
+
+
+![Alt text](daily_schedule.png)
