@@ -44,12 +44,12 @@ $(function () {
   var currentHour = today.$H;
 
   //Cycle through hours 9-17(ie 15 = 5pm)
-  for (let i = 9; i < 17; i++) {
+  for (let i = 9; i <= 17; i++) {
 
     var hourBlock = $('#hour-' + i)
     if (currentHour == i) {
       hourBlock.attr('class', 'row time-block present')
-    } else if (currentHour < i) {
+    } else if (currentHour > i) {
       hourBlock.attr('class', 'row time-block past')
     } else {
       hourBlock.attr('class', 'row time-block future')
